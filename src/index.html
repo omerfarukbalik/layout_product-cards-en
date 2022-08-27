@@ -15,52 +15,46 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-    <div class="card" data-qa="card">
-      <div>
-        <img
+    <article class="card" data-qa="card">
+      <img
           class="card__photo"
           src="images/imac.jpeg"
           alt="imac"
         >
 
-        <p class="card__product">APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)</p>
+      <p class="card__title">APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)</p>
 
-        <div class="card__text">
-          Product code: 195434
+      <p class="card__text">Product code: 195434</p>
+
+      <div class="card__review">
+        <div class="card__stars">
+          <div class="card__star"></div>
+
+          <div class="card__star"></div>
+
+          <div class="card__star"></div>
+
+          <div class="card__star"></div>
+
+          <div class="card__star"></div>
         </div>
 
-        <div class="card__review">
-          <div class="card__stars">
-            <div class="card__star"></div>
-
-            <div class="card__star"></div>
-
-            <div class="card__star"></div>
-
-            <div class="card__star"></div>
-
-            <div class="card__star"></div>
-          </div>
-
-          <div class="card__rating">Reviews: 5</div>
-        </div>
-
-        <div class="card__price">
-          <div class="card__price-price">
-            <div class="price">Price:</div>
-          </div>
-
-          <div class="card__price-dolar">$2,199</div>
-        </div>
-
-        <a
-          href="#"
-          class="card__buy"
-          data-qa="hover"
-        >
-          buy
-        </a>
+        <span class="card__rating">Reviews: 5</span>
       </div>
-    </div>
+
+      <div  class="card__price">
+        <p class="card__price-text">Price:</p>
+
+        <p class="card__price-digit">$2,199</p>
+      </div>
+
+      <a
+        href="#"
+        class="card__buy"
+        data-qa="hover"
+      >
+        buy
+      </a>
+    </article>
   </body>
 </html>

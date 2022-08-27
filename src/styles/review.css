@@ -25,5 +25,6 @@
 .card__rating {
   font-size: 10px;
   line-height: 14px;
-  color: #060b35;
+  font-weight: 400;
+  color: var(--text-accent-color);
 }
